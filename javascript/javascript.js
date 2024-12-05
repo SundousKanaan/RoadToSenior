@@ -23,8 +23,6 @@ window.addEventListener("scroll", () => {
   navLinks.forEach((link) => {
     const section = document.querySelector(link.hash);
     const sectionTop = section.offsetTop;
-    console.log(current);
-    // if (scrollY >= sectionTop - section.offsetHeight / 3) {
     if (scrollY >= sectionTop - section.offsetHeight / 2) {
       current = link.hash;
     }
