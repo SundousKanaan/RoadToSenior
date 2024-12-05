@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   font-family: poppins, sans-serif;
-
   caret-color: transparent;
 }
 
@@ -52,51 +51,10 @@
   }
 }
 
-.socialMediaList {
-  width: 100%;
-  height: 6em;
-  list-style: none;
-
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 1em;
-
-  padding: 0 20%;
-}
-
-.socialMediaList li {
-  width: 3em;
-  height: 3em;
-  border-radius: 50%;
-
-  box-shadow: var(--box-shadow-size) var(--color-primary);
-}
-
-.socialMediaList li .item {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-
-  display: grid;
-  place-items: center;
-
-  border: none;
-  background-color: var(--color-tertiary);
-}
-
-.socialMediaList li .item svg {
-  width: 70%;
-  height: auto;
-  fill: var(--color-primary);
-}
-
 /* *********** */
 
 html {
   scroll-behavior: smooth;
-  scroll-margin-top: 2em;
 }
 
 ::-webkit-scrollbar {
@@ -365,6 +323,11 @@ main article {
   height: fit-content;
   color: var(--color-secondary);
   padding: 1em 2em;
+  background-color: var(--color-gray);
+}
+
+main article:nth-child(odd) {
+  background-color: var(--color-tertiary);
 }
 
 @media (min-width: 1028px) {
@@ -411,6 +374,10 @@ main article .titles p::before {
 /* *********************** */
 /* *********************** */
 
+#home {
+  margin-top: 0;
+}
+
 #home h1 {
   height: 4em;
   color: var(--color-primary);
@@ -448,15 +415,55 @@ main article .titles p::before {
   object-position: center;
 }
 
-#home section .info .firstName,
-#home section .info .lastName {
+#home section .info .name {
   font-size: 2em;
   letter-spacing: normal;
+  margin: 0.3em 0;
 }
 
-#home section .info .firstName {
-  color: var(--color-primary);
-  margin-right: 0.3em;
+#home section .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#home section .socialMediaList {
+  width: 100%;
+  height: 6em;
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+#home section .socialMediaList li {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+
+  box-shadow: var(--box-shadow-size) var(--color-primary);
+}
+
+#home section .socialMediaList li .item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+
+  border: none;
+  background-color: var(--color-tertiary);
+}
+
+#home section .socialMediaList li .item svg {
+  width: 70%;
+  height: auto;
+  fill: var(--color-primary);
 }
 
 @media (min-width: 1028px) {
@@ -475,7 +482,7 @@ main article .titles p::before {
     width: 40%;
   }
 
-  #home .socialMediaList {
+  #home #home section .socialMediaList {
     margin-top: 0.5em;
   }
 }
@@ -485,10 +492,6 @@ main article .titles p::before {
 /* ****** skills ********* */
 /* *********************** */
 /* *********************** */
-
-#skills {
-  background-color: transparent;
-}
 
 #skills ul {
   list-style: none;
@@ -504,7 +507,7 @@ main article .titles p::before {
   width: var(--size);
   height: var(--size);
   padding: 0.5em;
-  background-color: var(--color-gray);
+  background-color: var(--color-tertiary);
   border-radius: 1em;
   box-shadow: 0 0 0.5em var(--color-secondary-light);
 
@@ -640,7 +643,7 @@ main article .titles p::before {
   height: 33em;
   padding: 1em;
   border-radius: 0.5em;
-  background-color: var(--color-gray);
+  background-color: var(--color-tertiary);
   box-shadow: 0 0 0.5em var(--color-secondary-light);
 
   display: grid;
@@ -731,8 +734,35 @@ main article .titles p::before {
 /* *********************** */
 /* *********************** */
 
-#contact {
-  background-color: violet;
+#contact .emailBlock {
+  height: 10em;
+  aspect-ratio: 2/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  background-color: var(--color-gray);
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 0.5em auto 2em auto;
+  box-shadow: 0 0 0.5em var(--color-secondary-light);
+}
+
+#contact .emailBlock svg {
+  width: 3em;
+  height: auto;
+  fill: var(--color-primary);
+}
+
+#contact .emailBlock a {
+  font-weight: bold;
+  color: var(--color-primary);
+  text-decoration-color: var(--color-primary);
+}
+
+#contact .emailBlock p {
+  font-size: 0.8em;
 }
 
 /* *********************** */
