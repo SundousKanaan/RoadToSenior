@@ -41,6 +41,11 @@
   line-height: 1.5em;
 }
 
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
 @media (min-width: 1028px) {
   .info {
     font-size: 1.2em;
@@ -627,27 +632,34 @@ main article .titles p::before {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1em;
+  gap: 1.5em;
 }
 
 #projects .projectsList .project {
   width: 20em;
-  height: fit-content;
+  height: 33em;
   padding: 1em;
   border-radius: 0.5em;
   background-color: var(--color-gray);
   box-shadow: 0 0 0.5em var(--color-secondary-light);
 
   display: grid;
-  grid-template-rows: 10em 1.5em auto;
+  grid-template-rows: 1.5em 10em auto 4em 2em;
   grid-template-areas:
-    "img"
     "title"
+    "img"
     "description"
     "tools"
     "links";
   align-items: center;
   gap: 0.5em;
+}
+
+#projects .projectsList .project h3 {
+  grid-area: title;
+  height: 100%;
+  font-size: 1.2em;
+  text-align: center;
 }
 
 #projects .projectsList .project .imgContainer {
@@ -665,33 +677,27 @@ main article .titles p::before {
   object-position: center;
 }
 
-#projects .projectsList .project h3 {
-  grid-area: title;
-  height: 1em;
-  font-size: 1.2em;
-  text-align: center;
-}
-
 #projects .projectsList .project .info {
   grid-area: description;
-  height: 11em;
+  height: 100%;
+  font-size: 0.9em;
 }
 
 #projects .projectsList .project ul {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
   gap: 0.2em;
+  height: 100%;
 }
 
 #projects .projectsList .project .tools {
   grid-area: tools;
-  height: 4em;
 }
 
 #projects .projectsList .project .links {
   grid-area: links;
-  height: 2em;
 }
 
 #projects .projectsList .project ul li {
@@ -719,9 +725,14 @@ main article .titles p::before {
   text-decoration: none;
 }
 
-.disabled {
-  opacity: 0.5;
-  pointer-events: none;
+/* *********************** */
+/* *********************** */
+/* ****** contact ******** */
+/* *********************** */
+/* *********************** */
+
+#contact {
+  background-color: violet;
 }
 
 /* *********************** */
@@ -741,9 +752,4 @@ footer p {
   font-size: 0.7em;
   text-align: center;
   color: var(--color-secondary);
-}
-
-/* TODO: delete this */
-article:nth-of-type(2n + 3) {
-  background-color: violet;
 }
