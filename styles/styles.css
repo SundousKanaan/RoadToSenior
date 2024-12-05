@@ -91,7 +91,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-margin-top: 1em;
+  scroll-margin-top: 2em;
 }
 
 ::-webkit-scrollbar {
@@ -632,14 +632,14 @@ main article .titles p::before {
 
 #projects .projectsList .project {
   width: 20em;
-  height: 33em;
+  height: fit-content;
   padding: 1em;
   border-radius: 0.5em;
   background-color: var(--color-gray);
   box-shadow: 0 0 0.5em var(--color-secondary-light);
 
   display: grid;
-  grid-template-rows: 36% 1.5em auto;
+  grid-template-rows: 10em 1.5em auto;
   grid-template-areas:
     "img"
     "title"
@@ -674,25 +674,29 @@ main article .titles p::before {
 
 #projects .projectsList .project .info {
   grid-area: description;
+  height: 11em;
 }
 
 #projects .projectsList .project ul {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 0.5em;
+  gap: 0.2em;
 }
 
 #projects .projectsList .project .tools {
   grid-area: tools;
+  height: 4em;
 }
 
 #projects .projectsList .project .links {
   grid-area: links;
+  height: 2em;
 }
 
 #projects .projectsList .project ul li {
   width: fit-content;
+  height: 1.5em;
   padding: 0.3em 1em;
   border-radius: 0.5em;
   background-color: var(--color-primary);
@@ -702,6 +706,7 @@ main article .titles p::before {
 #projects .projectsList .project .links li {
   padding: 0.5em 2em;
   border-radius: 5em;
+  height: 100%;
 
   background-color: var(--color-tertiary);
   box-shadow:
