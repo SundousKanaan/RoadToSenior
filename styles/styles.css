@@ -5,19 +5,90 @@
   margin: 0;
   padding: 0;
   font-family: poppins, sans-serif;
-  letter-spacing: 0.1em;
 
   caret-color: transparent;
 }
-/* d400ff */
+
 :root {
   --box-shadow-size: 0 0 0.5em 0.2em;
   --color-primary: #d08513;
   --color-secondary: #2b2b2b;
-  --color-tertiary: #f7f7f7;
-  --color-white: #ffffff;
+  --color-tertiary: #ffffff;
+  --color-gray: #f7f7f7;
   --color-secondary-light: rgba(134, 151, 168, 0.452);
 }
+
+/* *********************** */
+/* *********************** */
+/* **** main styles ****** */
+/* *********************** */
+/* *********************** */
+
+.hilight {
+  color: var(--color-primary);
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary);
+  text-decoration-thickness: 0.1em;
+}
+
+.info {
+  width: 80%;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+@media (min-width: 1028px) {
+  .info {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+}
+
+.socialMediaList {
+  width: 100%;
+  height: 6em;
+  list-style: none;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1em;
+
+  padding: 0 20%;
+}
+
+.socialMediaList li {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+
+  box-shadow: var(--box-shadow-size) var(--color-primary);
+}
+
+.socialMediaList li .item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+
+  border: none;
+  background-color: var(--color-tertiary);
+}
+
+.socialMediaList li .item svg {
+  width: 70%;
+  height: auto;
+  fill: var(--color-primary);
+}
+
+/* *********** */
 
 html {
   scroll-behavior: smooth;
@@ -63,10 +134,13 @@ header {
 
   position: fixed;
   top: 1.5em;
-  right: 1.5em;
+  left: 1.5em;
+  z-index: 9999;
 
   display: grid;
   place-items: center;
+
+  background-color: var(--color-tertiary);
 }
 
 header #openNav {
@@ -206,7 +280,7 @@ header nav ul li a.selected svg {
 
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     transition: 0.5s;
     padding: 0;
 
@@ -242,7 +316,7 @@ header nav ul li a.selected svg {
     position: relative;
   }
 
-  header nav.open ul li {
+  header nav.open ul li:nth-child(n + 1) {
     transform: none;
   }
 
@@ -270,12 +344,6 @@ main {
   height: 100%;
 }
 
-@media (min-width: 1028px) {
-  main {
-    padding-right: 5em;
-  }
-}
-
 main article {
   width: 100%;
   height: fit-content;
@@ -285,29 +353,36 @@ main article {
 
 @media (min-width: 1028px) {
   main article {
-    height: 100vh;
+    margin: 5em 0;
+    padding: 1em 15%;
   }
 }
 
-main article h2 {
-  width: fit-content;
-  font-size: 2em;
-  text-transform: uppercase;
+main article .titles {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 1em;
 }
 
-main article:not(:first-child) h2::first-letter {
+main article .titles h2 {
+  width: fit-content;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+main article:not(:first-child) .titles h2::first-letter {
   color: var(--color-primary);
 }
 
-main article > p {
+main article .titles p {
   text-transform: uppercase;
   display: flex;
   align-items: center;
   gap: 1em;
+  order: -1;
 }
 
-main article > p::before {
+main article .titles p::before {
   content: "";
   width: 3em;
   height: 0.1em;
@@ -357,13 +432,6 @@ main article > p::before {
   object-position: center;
 }
 
-#home section .info {
-  width: 80%;
-  text-align: center;
-  font-weight: bold;
-  line-height: 2em;
-}
-
 #home section .info .firstName,
 #home section .info .lastName {
   font-size: 2em;
@@ -375,60 +443,16 @@ main article > p::before {
   margin-right: 0.3em;
 }
 
-#home section .info .hilight {
-  color: var(--color-primary);
-}
-
-.socialMediaList {
-  width: 100%;
-  height: 6em;
-  list-style: none;
-
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 1em;
-
-  padding: 0 20%;
-}
-
-.socialMediaList li {
-  width: 3em;
-  height: 3em;
-  border-radius: 50%;
-
-  box-shadow: var(--box-shadow-size) var(--color-primary);
-}
-
-.socialMediaList li .item {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-
-  display: grid;
-  place-items: center;
-
-  border: none;
-  background-color: var(--color-tertiary);
-}
-
-.socialMediaList li .item svg {
-  width: 70%;
-  height: auto;
-  fill: var(--color-primary);
-}
-
 @media (min-width: 1028px) {
   #home section {
     flex-direction: row;
     gap: 2em;
-    padding: 0 3em;
   }
 
   #home section .imgContainer {
     width: 40vw;
     height: 40vw;
+    order: 1;
   }
 
   #home section .info {
@@ -460,20 +484,23 @@ main article > p::before {
 }
 
 #skills ul li {
-  width: 5em;
-  height: 5em;
+  --size: 5em;
+  width: var(--size);
+  height: var(--size);
   padding: 0.5em;
-  background-color: var(--color-white);
+  background-color: var(--color-gray);
   border-radius: 1em;
   box-shadow: 0 0 0.5em var(--color-secondary-light);
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2.5em 1fr;
+  grid-template-rows: 70% 30%;
   grid-template-areas:
     "icon"
     "text";
   justify-items: center;
+
+  align-items: center;
   row-gap: 0.25em;
 }
 
@@ -499,9 +526,9 @@ main article > p::before {
 }
 
 #skills section h3 {
-  margin-bottom: 1em;
   position: relative;
   width: fit-content;
+  margin: 2.5em auto 1em auto;
 }
 
 #skills section h3::before {
@@ -546,6 +573,30 @@ main article > p::before {
   100% {
     content: "....";
   }
+}
+
+@media (min-width: 1028px) {
+  #skills ul {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #skills ul li {
+    --size: 7em;
+  }
+  #skills ul li p {
+    font-size: 0.8em;
+  }
+}
+
+/* *********************** */
+/* *********************** */
+/* ****** footer ********* */
+/* *********************** */
+/* *********************** */
+
+#about > p {
+  margin: 0 auto 1em auto;
 }
 
 /* *********************** */
