@@ -531,7 +531,8 @@ main article .titles p::before {
   text-align: center;
 }
 
-#skills ul li svg {
+#skills ul li svg,
+#skills ul li img {
   grid-area: icon;
   width: auto;
   height: 100%;
@@ -539,59 +540,10 @@ main article .titles p::before {
   color: var(--color-primary);
 }
 
-#skills section {
-  margin-top: 2em;
-  padding-left: 0.5em;
-}
-
-#skills section h3 {
-  position: relative;
-  width: fit-content;
-  margin: 2.5em auto 1em auto;
-}
-
-#skills section h3::before {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 0.1em;
-
-  position: absolute;
-  bottom: -0.1em;
-
-  background-color: var(--color-primary);
-}
-
-#skills section h3::after {
-  display: block;
-  content: "";
-  width: 1em;
-  height: 100%;
-  font-size: 1em;
-
-  position: absolute;
-  right: -1em;
-  top: 0;
-
-  animation: loading 2s infinite linear;
-}
-
-@keyframes loading {
-  0% {
-    content: "";
-  }
-  25% {
-    content: ".";
-  }
-  50% {
-    content: "..";
-  }
-  75% {
-    content: "...";
-  }
-  100% {
-    content: "....";
-  }
+#skills ul li img {
+  filter: hue-rotate(200deg) brightness(1.2) saturate(2);
+  filter: brightness(0) saturate(100%) invert(85%) sepia(45%) saturate(7230%) hue-rotate(1deg) brightness(89%)
+    contrast(86%);
 }
 
 @media (min-width: 1028px) {
