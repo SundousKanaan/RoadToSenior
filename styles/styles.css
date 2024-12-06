@@ -45,6 +45,25 @@
   pointer-events: none;
 }
 
+.quote {
+  font-style: italic;
+  width: 100%;
+  margin-top: 1.5em;
+  position: relative;
+  padding-left: 1em;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.quote::before {
+  content: "";
+  width: 0.2em;
+  height: 100%;
+  background-color: var(--color-primary);
+  position: absolute;
+  left: 0;
+}
+
 @media (min-width: 1028px) {
   .info {
     font-size: 1.2em;
@@ -332,7 +351,6 @@ main article:nth-child(odd) {
 
 @media (min-width: 1028px) {
   main article {
-    margin: 5em 0;
     padding: 1em 15%;
   }
 }
@@ -547,11 +565,6 @@ main article .titles p::before {
 }
 
 @media (min-width: 1028px) {
-  #skills ul {
-    width: 60%;
-    margin: 0 auto;
-  }
-
   #skills ul li {
     --size: 7em;
   }
@@ -567,7 +580,27 @@ main article .titles p::before {
 /* *********************** */
 
 #about > p {
-  margin: 0 auto 1em auto;
+  margin: 0 auto 0.5em auto;
+}
+
+#about h3 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+#about h3::first-letter {
+  color: var(--color-primary);
+}
+
+#about section {
+  min-width: 25em;
+  max-width: 70%;
+  background-color: var(--color-gray);
+  border-radius: 0.5em;
+  box-shadow: 0 0 0.5em var(--color-secondary-light);
+  padding: 1em;
+  margin: 1em auto;
 }
 
 /* *********************** */
