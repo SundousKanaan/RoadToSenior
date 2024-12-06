@@ -594,13 +594,18 @@ main article .titles p::before {
 }
 
 #about section {
-  min-width: 25em;
-  max-width: 70%;
+  width: 100%;
   background-color: var(--color-gray);
   border-radius: 0.5em;
   box-shadow: 0 0 0.5em var(--color-secondary-light);
   padding: 1em;
   margin: 1em auto;
+}
+
+@media (min-width: 1024px) {
+  #about section {
+    width: 75%;
+  }
 }
 
 /* *********************** */
