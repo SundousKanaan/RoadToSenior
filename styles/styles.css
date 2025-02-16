@@ -345,6 +345,16 @@ main article {
   background-color: var(--color-gray);
 }
 
+main article > h3 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+main article > h3::first-letter {
+  color: var(--color-primary);
+}
+
 main article:nth-child(odd) {
   background-color: var(--color-tertiary);
 }
@@ -583,16 +593,6 @@ main article .titles p::before {
   margin: 0 auto 0.5em auto;
 }
 
-#about h3 {
-  margin-top: 2em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
-}
-
-#about h3::first-letter {
-  color: var(--color-primary);
-}
-
 #about section {
   width: 100%;
   background-color: var(--color-gray);
@@ -738,11 +738,156 @@ main article .titles p::before {
   transform: scale(0.9);
 }
 
+#projects .projectsList .project.slider {
+  grid-template-rows: 1.5em 26em auto;
+
+  grid-template-areas:
+    "title"
+    "img"
+    "description";
+}
+
+#projects .projectsList .project.slider ul {
+  grid-area: img;
+  width: 18em;
+
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5em;
+  overflow: hidden;
+}
+
+@keyframes sliding {
+  0%,
+  14.28% {
+    transform: translateX(0);
+  } /* Slide 1 - 2s */
+  16.66%,
+  30.94% {
+    transform: translateX(-100%);
+  } /* Slide 2 - 2s */
+  33.33%,
+  47.61% {
+    transform: translateX(-200%);
+  } /* Slide 3 - 2s */
+  50%,
+  64.28% {
+    transform: translateX(-300%);
+  } /* Slide 4 - 2s */
+  66.66%,
+  80.94% {
+    transform: translateX(-400%);
+  } /* Slide 5 - 2s */
+  83.33%,
+  97.61% {
+    transform: translateX(-500%);
+  } /* Slide 6 - 2s */
+  100% {
+    transform: translateX(0);
+  } /* Terug naar start */
+}
+
+#projects .projectsList .project.slider ul li {
+  flex-shrink: 0;
+  width: 90%;
+  height: 100%;
+  padding: 0.3em 0;
+  background-color: var(--color-tertiary);
+
+  animation: sliding 24s -3.5s infinite linear;
+}
+
+#projects .projectsList .project.slider ul:hover li {
+  animation-play-state: paused;
+}
+
+#projects .projectsList .project.slider ul li h4 {
+  color: var(--color-primary);
+  height: 6%;
+  text-align: center;
+}
+
+#projects .projectsList .project.slider ul li div {
+  width: 100%;
+  height: 48%;
+  overflow: hidden;
+}
+
+#projects .projectsList .project.slider ul li:nth-of-type(5) div:first-of-type,
+#projects .projectsList .project.slider ul li:nth-of-type(6) div:first-of-type {
+  height: 65%;
+}
+
+#projects .projectsList .project.slider ul li:nth-of-type(5) div:first-of-type img,
+#projects .projectsList .project.slider ul li:nth-of-type(6) div:first-of-type img {
+  object-position: center;
+}
+
+#projects .projectsList .project.slider ul li:nth-of-type(5) div:last-of-type,
+#projects .projectsList .project.slider ul li:nth-of-type(6) div:last-of-type {
+  height: 30%;
+}
+
+#projects .projectsList .project.slider ul li div p {
+  padding: 1em 0;
+  text-align: center;
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+#projects .projectsList .project.slider ul li div img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center -2.1em;
+}
+
+#projects .designsList {
+  height: 30em;
+  padding: 0.5em 0;
+  display: flex;
+  gap: 1em;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+#projects .designsList::-webkit-scrollbar {
+  height: 0.5em;
+}
+
+#projects .designsList::-webkit-scrollbar-track {
+  background: transparent;
+  box-shadow: none;
+}
+
+#projects .designsList li {
+  height: 100%;
+}
+
+#projects .designsList img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* *********************** */
 /* *********************** */
 /* ****** contact ******** */
 /* *********************** */
 /* *********************** */
+
+#contact {
+  height: 85dvh;
+}
+
+#contact section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 #contact .emailBlock {
   height: 10em;

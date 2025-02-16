@@ -21,9 +21,14 @@ function getTarget() {
 window.addEventListener("scroll", () => {
   let current = "";
   navLinks.forEach((link) => {
-    const section = document.querySelector(link.hash);
-    const sectionTop = section.offsetTop;
-    if (scrollY >= sectionTop - section.offsetHeight / 2) {
+    const article = document.querySelector(link.hash);
+    console.log(article, article.offsetTop, link.hash);
+
+    const articleTop = article.offsetTop;
+
+    if (scrollY >= articleTop - article.offsetHeight / 3) {
+      console.log("00", link.hash);
+
       current = link.hash;
     }
   });
