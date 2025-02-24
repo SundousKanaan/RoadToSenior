@@ -848,7 +848,7 @@ main article .titles p::before {
   display: flex;
   gap: 1em;
   overflow: auto;
-  overscroll-behavior: contain;
+  overscroll-behavior-x: contain;
 }
 
 #projects .designsList::-webkit-scrollbar {
