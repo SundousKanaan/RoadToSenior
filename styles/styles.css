@@ -349,6 +349,8 @@ main article > h3 {
   margin-top: 2em;
   margin-bottom: 0.5em;
   text-transform: uppercase;
+  position: relative;
+  font-size: 1.5em;
 }
 
 main article > h3::first-letter {
