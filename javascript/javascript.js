@@ -42,9 +42,9 @@ document.addEventListener("DOMContentLoaded", () => {
 async function getWebsiteData() {
   try {
     const [aboutRes, skillsRes, projectsRes] = await Promise.all([
-      fetch("/data/aboutData.json"),
-      fetch("/data/skillsData.json"),
-      fetch("/data/projectsData.json"),
+      fetch("./data/aboutData.json"),
+      fetch("./data/skillsData.json"),
+      fetch("./data/projectsData.json"),
     ]);
 
     if (!aboutRes.ok || !projectsRes.ok) {
