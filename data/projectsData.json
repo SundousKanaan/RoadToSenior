@@ -152,19 +152,19 @@
         {
           "title": "Web versie dashboard page",
           "type_image": "web",
-          "image_src": "/images/logo/LOGO.png",
+          "image_src": "./images/logo/LOGO.png",
           "short_description": null
         },
         {
           "title": "Ipad versie dashboard dashboard page",
           "type_image": "web",
-          "image_src": "/images/logo/LOGO2.png",
+          "image_src": "./images/logo/LOGO2.png",
           "short_description": null
         },
         {
           "title": "Mobile versie dashboard page",
           "type_image": "mobile",
-          "image_src": "/images/logo/LOGO3.png",
+          "image_src": "./images/logo/LOGO3.png",
           "short_description": null
         }
       ]
@@ -200,13 +200,13 @@
         {
           "title": "Algoritmeregister Dataplatform web versie",
           "type_image": "",
-          "image_src": "/images/algoritme/TiltShift.png",
+          "image_src": "./images/algoritme/TiltShift.png",
           "short_description": null
         },
         {
           "title": "The website review",
           "type_image": "web",
-          "image_src": "/images/algoritme/tiltshift-site.gif",
+          "image_src": "./images/algoritme/tiltshift-site.gif",
           "short_description": ""
         }
       ]
@@ -366,74 +366,74 @@
         {
           "title": "Loading",
           "type_image": "mobile",
-          "image_src": "/images/kamerPortfolio/loading-state.gif",
+          "image_src": "./images/kamerPortfolio/loading-state.gif",
           "short_description": "Veel van de gegevens worden geïmporteerd via de GitHub API, dus een laadscherm is belangrijk."
         },
         {
           "title": "web view",
           "type_image": "web",
-          "image_src": "/images/kamerPortfolio/room-view-light-mode.png",
+          "image_src": "./images/kamerPortfolio/room-view-light-mode.png",
           "short_description": ""
         },
 
         {
           "title": "Mobile view darkmode",
           "type_image": "mobile",
-          "image_src": "/images/kamerPortfolio/mobile-view-dark-mode.png",
+          "image_src": "./images/kamerPortfolio/mobile-view-dark-mode.png",
           "short_description": ""
         },
         {
           "title": "Mobile view lightmode",
           "type_image": "mobile",
-          "image_src": "/images/kamerPortfolio/mobile-view-light-mode.png",
+          "image_src": "./images/kamerPortfolio/mobile-view-light-mode.png",
           "short_description": ""
         },
         {
           "title": "Kamer mode veranderen",
           "type_image": "",
-          "image_src": "/images/kamerPortfolio/room-view-dark-mode.gif",
+          "image_src": "./images/kamerPortfolio/room-view-dark-mode.gif",
           "short_description": ""
         },
         {
           "title": "Mobile 3D interacties view",
           "type_image": "mobile",
-          "image_src": "/images/kamerPortfolio/mobile-view-3d-list.gif",
+          "image_src": "./images/kamerPortfolio/mobile-view-3d-list.gif",
           "short_description": ""
         },
         {
           "title": "Projects review",
           "type_image": "web",
-          "image_src": "/images/kamerPortfolio/room-view-projects-review.gif",
+          "image_src": "./images/kamerPortfolio/room-view-projects-review.gif",
           "short_description": ""
         },
         {
           "title": "UX/UI projects review",
           "type_image": "web",
-          "image_src": "/images/kamerPortfolio/room-view-UX-UI-review.gif",
+          "image_src": "./images/kamerPortfolio/room-view-UX-UI-review.gif",
           "short_description": ""
         },
         {
           "title": "Hobbys review",
           "type_image": "web",
-          "image_src": "/images/kamerPortfolio/room-view-hobbys-review.gif",
+          "image_src": "./images/kamerPortfolio/room-view-hobbys-review.gif",
           "short_description": ""
         },
         {
           "title": "Contact review",
           "type_image": "web",
-          "image_src": "/images/kamerPortfolio/room-view-leave-room-review.gif",
+          "image_src": "./images/kamerPortfolio/room-view-leave-room-review.gif",
           "short_description": ""
         },
         {
           "title": "Vooruit en achteruit bewegen",
           "type_image": "web",
-          "image_src": "/images/kamerPortfolio/room-view-fore-back-moving.gif",
+          "image_src": "./images/kamerPortfolio/room-view-fore-back-moving.gif",
           "short_description": "Je kunt bewegen met de knoppen op het scherm of de pijltjestoetsen op het toetsenbord."
         },
         {
           "title": "Zijwaarts bewegen",
           "type_image": "web",
-          "image_src": "/images/kamerPortfolio/room-view-left-right-moving.gif",
+          "image_src": "./images/kamerPortfolio/room-view-left-right-moving.gif",
           "short_description": "Je kunt bewegen met de knoppen op het scherm of de pijltjestoetsen op het toetsenbord."
         }
       ]
@@ -468,49 +468,49 @@
         {
           "title": "Pokémon review",
           "type_image": "web",
-          "image_src": "/images/react-pokeApp/React-PokeApp.gif",
+          "image_src": "./images/react-pokeApp/React-PokeApp.gif",
           "short_description": ""
         },
         {
           "title": "Pokémon list view",
           "type_image": "web",
-          "image_src": "/images/react-pokeApp/React-PokeApp.png",
+          "image_src": "./images/react-pokeApp/React-PokeApp.png",
           "short_description": ""
         },
         {
           "title": "Pokémon data card",
           "type_image": "web",
-          "image_src": "/images/react-pokeApp/React-PokeApp2.png",
+          "image_src": "./images/react-pokeApp/React-PokeApp2.png",
           "short_description": ""
         },
         {
           "title": "Pokémon-competitie ",
           "type_image": "web",
-          "image_src": "/images/react-pokeApp/React-PokeApp3.png",
+          "image_src": "./images/react-pokeApp/React-PokeApp3.png",
           "short_description": ""
         },
         {
           "title": "Darkmode",
           "type_image": "web",
-          "image_src": "/images/react-pokeApp/React-PokeApp7.png",
+          "image_src": "./images/react-pokeApp/React-PokeApp7.png",
           "short_description": ""
         },
         {
           "title": "Pokémon list ipad view",
           "type_image": "web",
-          "image_src": "/images/react-pokeApp/React-PokeApp4.png",
+          "image_src": "./images/react-pokeApp/React-PokeApp4.png",
           "short_description": ""
         },
         {
           "title": "Pokémon list mobile view",
           "type_image": "mobile",
-          "image_src": "/images/react-pokeApp/React-PokeApp5.png",
+          "image_src": "./images/react-pokeApp/React-PokeApp5.png",
           "short_description": ""
         },
         {
           "title": "Pokémon data card mobile view",
           "type_image": "mobile",
-          "image_src": "/images/react-pokeApp/React-PokeApp6.png",
+          "image_src": "./images/react-pokeApp/React-PokeApp6.png",
           "short_description": ""
         }
       ]
@@ -538,49 +538,49 @@
         {
           "title": "Pokémon review",
           "type_image": "web",
-          "image_src": "/images/angular-pokeApp/Angular-PokeApp.gif",
+          "image_src": "./images/angular-pokeApp/Angular-PokeApp.gif",
           "short_description": ""
         },
         {
           "title": "Pokémon list view",
           "type_image": "web",
-          "image_src": "/images/angular-pokeApp/Angular-PokeApp.png",
+          "image_src": "./images/angular-pokeApp/Angular-PokeApp.png",
           "short_description": ""
         },
         {
           "title": "Pokémon data card",
           "type_image": "web",
-          "image_src": "/images/angular-pokeApp/Angular-PokeApp2.png",
+          "image_src": "./images/angular-pokeApp/Angular-PokeApp2.png",
           "short_description": "Omdat dit een persoonlijke versie en een persoonlijke verbetering van de React-versie is, heb ik de datakaart opnieuw ontworpen."
         },
         {
           "title": "Loading Pokémon Battleground (user VS pc)",
           "type_image": "web",
-          "image_src": "/images/angular-pokeApp/Angular-PokeApp3.png",
+          "image_src": "./images/angular-pokeApp/Angular-PokeApp3.png",
           "short_description": ""
         },
         {
           "title": "Pokémon-gevecht (user VS pc)",
           "type_image": "web",
-          "image_src": "/images/angular-pokeApp/Angular-PokeApp4.png",
+          "image_src": "./images/angular-pokeApp/Angular-PokeApp4.png",
           "short_description": ""
         },
         {
           "title": "Pokémon list ipad view",
           "type_image": "web",
-          "image_src": "/images/angular-pokeApp/Angular-PokeApp5.png",
+          "image_src": "./images/angular-pokeApp/Angular-PokeApp5.png",
           "short_description": ""
         },
         {
           "title": "Loading Pokémon Squad Battleground mobile view",
           "type_image": "mobile",
-          "image_src": "/images/angular-pokeApp/Angular-PokeApp6.png",
+          "image_src": "./images/angular-pokeApp/Angular-PokeApp6.png",
           "short_description": ""
         },
         {
           "title": "Pokémon-gevecht mobile view",
           "type_image": "mobile",
-          "image_src": "/images/angular-pokeApp/Angular-PokeApp7.png",
+          "image_src": "./images/angular-pokeApp/Angular-PokeApp7.png",
           "short_description": ""
         }
       ]
