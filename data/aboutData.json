@@ -1,0 +1,38 @@
+{
+  "about": {
+    "intro": [
+      {
+        "text": "<span class='hilight'>Hallo!</span>👋 Wat leuk dat je mijn portfolio bekijkt."
+      },
+      {
+        "text": "<span class='hilight'>Ik ben een gedreven Frontend Developer en CMD-alumnus (Hogeschool van Amsterdam)</span>"
+      },
+      {
+        "text": "Met mijn achtergrond in <span class='hilight'>UX/UI Design</span> en passie voor code, bouw ik interfaces die niet alleen mooi zijn, maar ook perfect werken. Onder de naam '<span class='underline'><em>Road to Senior</em></span>' werk ik aan het aanscherpen van mijn skills in <span class='hilight'>React</span> en <span class='hilight'>Angular</span>."
+      },
+      {
+        "text": "Ik ben een leergierige teamspeler, gewend aan <span class='hilight'>Scrum</span>, en altijd op zoek naar slimme technische oplossingen. Laten we samen iets moois bouwen!"
+      }
+    ],
+
+    "ervaringenTitle": "van mijn ervaringen",
+
+    "ervaringen": [
+      {
+        "title": "Full-stack ontwikkelaar",
+        "description": "Tijdens mijn traineeship bij <span class='hilight'>Capisoft</span> heb ik de brug geslagen tussen Frontend en Backend door een volledige <span class='hilight'>full-stack applicatie</span> te bouwen. Ik was verantwoordelijk voor het databasebeheer en de authenticatie via <span class='hilight'>Firebase</span>, gecombineerd met moderne frontend-technologieën. Hierdoor heb ik mijn technisch inzicht verdiept en geleerd om <span class='underline'>complexe full-stack vraagstukken zelfstandig en efficiënt op te lossen</span>.",
+        "quote": "Sundous is een professional met uitstekende communicatieve vaardigheden en ruime ervaring in gebruikersinterfaceprogrammering."
+      },
+      {
+        "title": "Webdeveloper",
+        "description": "Bij Triple heb ik bijgedragen aan de optimalisatie van de Ajax Webshop. Ik transformeerde het betaalproces naar een multi-step checkout voor A/B-testing, inclusief de ontwikkeling van de winkelwagen, bezorg- en betaalstappen en de 'cadeaufunctie'. Werken binnen een high-level Scrum-team met Azure DevOps heeft mijn focus op clean code en software-architectuur naar een professioneel niveau getild.",
+        "quote": "Snel lerend, vaardig in CSS en een sterke teamplayer."
+      },
+      {
+        "title": "UX/UI designer & Front-end developer",
+        "description": "In samenwerking met TiltShift heb ik gebouwd aan een transparant algoritmeregister. Vanaf de conceptfase tot de technische realisatie had ik de leiding over de ontwikkeling, wat resulteerde in het opleveren van 95% van het functionele prototype. Het eindproduct voldeed zowel op esthetisch als technisch vlak aan de hoogste eisen van de klant.",
+        "quote": "Schone, nette en duidelijke code; een zeldzaam niveau van precisie voor een student."
+      }
+    ]
+  }
+}

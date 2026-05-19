@@ -1,0 +1,664 @@
+{
+  "projects": [
+    {
+      "id": "global-insights-dashboard",
+      "title": "Global Insights Dashboard",
+      "company_or_client": "Persoonlijk Project",
+      "status": "InProgress",
+      "short_description": "Een geavanceerd data-visualisatie dashboard gebouwd met <span class=\"hilight\"> Angular 18 en TypeScript</span>.",
+      "main_image": "./images/Global-Insights-Dashboard/Global-Insights-Dashboard.png",
+      "tech_stack": [
+        "Angular 18",
+        "TypeScript",
+        "RxJS",
+        "Chart.js",
+        "REST API",
+        "Git"
+      ],
+      "details": {
+        "uitdaging": "Het transformeren van ruwe data naar realtime, begrijpelijke inzichten voor eindgebruikers met behulp van de nieuwste standaarden binnen frontend architectuur.",
+        "rol_en_aanpak": "Volledige opzet van een modulaire architectuur met standalone componenten. Implementatie van Angular Signals en RxJS voor efficiënt, reactief databeheer en dynamische grafieken.",
+        "resultaat": "Een schaalbaar enterprise-ready dashboard dat mijn vermogen toont om met complexe datastromen en moderne Angular functionaliteiten te werken."
+      },
+      "links": {
+        "repo_fe": "https://github.com/SundousKanaan/Global-Insights-Dashboard",
+        "repo_be": null,
+        "repo_scraping": null,
+        "live_demo": null
+      },
+      "gallery": [
+        {
+          "title": "The dashboard web versie (AI original design)",
+          "type_image": "web",
+          "image_src": "./images/Global-Insights-Dashboard/Global-Insights-Dashboard.png",
+          "short_description": "Het ontwerp is door AI gegenereerd en dient als een algemeen sjabloon dat in de digitale versie naar behoefte kan worden aangepast aan de inhoud."
+        },
+        {
+          "title": "Weather page (AI original design)",
+          "type_image": "web",
+          "image_src": "./images/Global-Insights-Dashboard/weather-page.png",
+          "short_description": "Het ontwerp is door AI gegenereerd en dient als een algemeen sjabloon dat in de digitale versie naar behoefte kan worden aangepast aan de inhoud."
+        },
+        {
+          "title": "The dashboard mobile versie (AI original design)",
+          "type_image": "mobile",
+          "image_src": "./images/Global-Insights-Dashboard/mobile-view.png",
+          "short_description": "Het ontwerp is door AI gegenereerd en dient als een algemeen sjabloon dat in de digitale versie naar behoefte kan worden aangepast aan de inhoud."
+        },
+        {
+          "title": "The dashboard web versie (Mijn versie na veranderingen)",
+          "type_image": "web",
+          "image_src": "./images/Global-Insights-Dashboard/Global-Insights-Dashboard-page1.png",
+          "short_description": "De website is nog in ontwikkeling en dit is het huidige resultaat."
+        },
+        {
+          "title": "The dashboard mobile versie (Mijn versie na veranderingen)",
+          "type_image": "mobile",
+          "image_src": "./images/Global-Insights-Dashboard/Global-Insights-Dashboard-mob-page1.gif",
+          "short_description": "De website is nog in ontwikkeling en dit is het huidige resultaat."
+        }
+      ]
+    },
+    {
+      "id": "ajax-fanshop",
+      "title": "AJAX Fanshop Checkout flow",
+      "company_or_client": "Triple / AJAX",
+      "status": "completed",
+      "short_description": "<span class=\"hilight\">Herontwikkeling</span> van het betalingsproces voor de officiële <span class=\"hilight\">AJAX Fanshop</span> van een single-page naar een multi-step checkout.",
+      "main_image": "./images/ayaxFanshop/winkelwagenPagina-nieuw.png",
+      "tech_stack": [
+        "JavaScript",
+        "CSS",
+        "Scrum",
+        "Azure DevOps",
+        "A/B Testing",
+        "Git",
+        "Figma"
+      ],
+      "details": {
+        "uitdaging": "Het optimaliseren van de conversie van de webshop door het oude betalingssysteem te vervangen door een stapsgewijs proces, zonder de live basiscode te verstoren.",
+        "rol_en_aanpak": "Als Web Developer bij Triple was ik verantwoordelijk voor het bouwen van de nieuwe winkelwagenpagina, de bezorg- en betaalstappen en de bevestigingspagina. Tevens heb ik de code zo gestructureerd dat A/B-testing soepel kon verlopen en de technische basis gelegd voor een nieuwe cadeau-functionaliteit.",
+        "resultaat": "Een succesvolle uitrol van een high-traffic checkout-systeem dat voldoet aan professionele standaarden van schone code (clean code) en consistentie binnen een enterprise Scrum-team."
+      },
+      "links": {
+        "repo_fe": null,
+        "repo_be": null,
+        "repo_scraping": null,
+        "live_demo": "https://www.ajax.nl/shop"
+      },
+      "gallery": [
+        {
+          "title": "Winkelwagen Pagina",
+          "old_img": "./images/ayaxFanshop/winkelwagenPagina-old.png",
+          "new_img": "./images/ayaxFanshop/winkelwagenPagina-nieuw.png"
+        },
+        {
+          "title": "Bezorging Stap",
+          "old_img": "./images/ayaxFanshop/stap2-old.png",
+          "new_img": "./images/ayaxFanshop/stap2-nieuw.png"
+        },
+        {
+          "title": "Betalen Stap",
+          "old_img": "./images/ayaxFanshop/stap3-old.png",
+          "new_img": "./images/ayaxFanshop/stap3-nieuw.png"
+        },
+        {
+          "title": "Bevestiging (Tijdelijk)",
+          "old_img": "./images/ayaxFanshop/stap4-eersteDesign-old.png",
+          "new_img": "./images/ayaxFanshop/stap4-eersteDesign-nieuw.png"
+        },
+        {
+          "title": "Bevestiging (Definitief)",
+          "old_img": null,
+          "new_img": "./images/ayaxFanshop/stap4-updatedDesign.png"
+        },
+        {
+          "title": "Cadeau Functie Basis",
+          "old_img": null,
+          "new_img": "./images/ayaxFanshop/gift-functie.png"
+        }
+      ]
+    },
+    {
+      "id": "LOGO-capisoft",
+      "title": "LOGO Webplatform",
+      "company_or_client": "Capisoft (Stage)",
+      "status": "completed",
+      "short_description": "<span class=\"hilight\">Full-stack webapplicatie</span> met mobiele integratie en geautomatiseerde data scraping.",
+      "main_image": "./images/logo/LOGO.png",
+      "tech_stack": [
+        "ReactJS",
+        "Django",
+        "Chakra UI",
+        "React Query",
+        "Firebase",
+        "CapacitorJS",
+        "Web Scraping",
+        "Git",
+        "Figma"
+      ],
+      "details": {
+        "uitdaging": "Het overbruggen van de kloof tussen frontend en backend door een compleet systeem te bouwen met gebruikersbeheer, database-integratie en cross-platform mobiele ondersteuning.",
+        "rol_en_aanpak": "Tijdens mijn stage heb ik mezelf uitgedaagd op full-stack niveau. Ik implementeerde externe authenticatie via Firebase Console, bouwde back-end structuren in Django, hanteerde React Query voor data-fetching en zette CapacitorJS in om de applicatie te poorten naar Android. Daarnaast schreef ik webscraping-scripts voor data-extractie.",
+        "resultaat": "Een volledig functionerend platform dat mijn technische veelzijdigheid bewijst en mijn begrip van end-to-end softwareontwikkeling enorm heeft vergroot."
+      },
+      "links": {
+        "repo_fe": "https://github.com/SundousKanaan/LOGO-V2",
+        "repo_be": "https://github.com/SundousKanaan/LOGO-backend",
+        "repo_scraping": "https://github.com/SundousKanaan/intern-docs-scraping",
+        "live_demo": null
+      },
+      "gallery": [
+        {
+          "title": "Web versie dashboard page",
+          "type_image": "web",
+          "image_src": "/images/logo/LOGO.png",
+          "short_description": null
+        },
+        {
+          "title": "Ipad versie dashboard dashboard page",
+          "type_image": "web",
+          "image_src": "/images/logo/LOGO2.png",
+          "short_description": null
+        },
+        {
+          "title": "Mobile versie dashboard page",
+          "type_image": "mobile",
+          "image_src": "/images/logo/LOGO3.png",
+          "short_description": null
+        }
+      ]
+    },
+    {
+      "id": "algoritmeregister-tiltshift",
+      "title": "Algoritmeregister Dataplatform",
+      "company_or_client": "TiltShift",
+      "status": "completed",
+      "short_description": "Een transparant dataplatform ontworpen om burgers meer inzicht te geven in data en overheidsalgoritmes. <span class=\"hilight\">Genomineerd voor de Golden Dot Awards 2022.</span>",
+      "main_image": "./images/algoritme/TiltShift.png",
+      "tech_stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Ajax",
+        "JSON Database",
+        "Git",
+        "Figma"
+      ],
+      "details": {
+        "uitdaging": "Het vertalen van complexe algoritmische data naar een transparante, begrijpelijke en toegankelijke interface voor het publiek.",
+        "rol_en_aanpak": "Samenwerkend in een multidisciplinair team van 2 UX/UI ontwerpers en 2 Frontend developers, nam ik de volledige verantwoordelijkheid voor de technische realisatie op mij. Ik ontwikkelde 95% van het functionele prototype met schone, modulaire vanille JavaScript en Ajax.",
+        "resultaat": "Een hooggewaardeerd, genomineerd prototype ('Golden Dot Awards 2022') dat lof kreeg van de klant vanwege de uitzonderlijk schone en overzichtelijke code-architectuur."
+      },
+      "links": {
+        "repo_fe": "https://github.com/SundousKanaan/TiltShift",
+        "repo_be": null,
+        "repo_scraping": null,
+        "live_demo": "https://sundouskanaan.github.io/TiltShift/"
+      },
+      "gallery": [
+        {
+          "title": "Algoritmeregister Dataplatform web versie",
+          "type_image": "",
+          "image_src": "/images/algoritme/TiltShift.png",
+          "short_description": null
+        },
+        {
+          "title": "The website review",
+          "type_image": "web",
+          "image_src": "/images/algoritme/tiltshift-site.gif",
+          "short_description": ""
+        }
+      ]
+    },
+    {
+      "id": "Streamychan",
+      "title": "StreamyChan",
+      "company_or_client": "Persoonlijk Project",
+      "status": "completed",
+      "short_description": "Een <span class=\"hilight\">real-time webapplicatie</span> en streamingdienst voor gezamenlijke chatsessies en gesynchroniseerde YouTube-videoweergave.",
+      "main_image": "./images/streamyChan/streamyChan.png",
+      "tech_stack": [
+        "JavaScript",
+        "CSS3",
+        "EJS",
+        "Socket.io",
+        "YouTube API",
+        "Git",
+        "Gifs api (Het werd bij de bron gestopt.)"
+      ],
+      "details": {
+        "uitdaging": "Het realiseren van real-time datasynchronisatie tussen meerdere clients zodat gebruikers zonder vertraging samen video's kunnen kijken en chatten.",
+        "rol_en_aanpak": "Ontwikkeling van een Node.js omgeving met WebSockets (Socket.io) voor bi-directionele communicatie. Integratie van de YouTube Player API om video-statussen (play/pauze/skip) synchroon te houden binnen afgeschermde privékamers.",
+        "resultaat": "Een interactieve, vloeiende multimedia-ervaring die mijn vaardigheden in event-driven programming en real-time webtechnologieën aantoont."
+      },
+      "links": {
+        "repo_fe": "https://github.com/SundousKanaan/Streamy-Chan",
+        "repo_be": null,
+        "repo_scraping": null,
+        "live_demo": null
+      },
+      "gallery": [
+        {
+          "title": "Data Lifecycle Diagram",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/Data-Lifecycle-Diagram.png",
+          "short_description": "Mijn data-levenscyclusdiagram bevat de gebeurtenissen die plaatsvinden tijdens het gebruik van de applicatie en de soorten uitwisselingen die plaatsvinden tussen gebruikers, de server en de bijbehorende API's."
+        },
+        {
+          "title": "Web view",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/streamy-chan-lap.png",
+          "short_description": ""
+        },
+        {
+          "title": "Responsief voorbeeld",
+          "type_image": "",
+          "image_src": "./images/streamyChan/streamyChan.png",
+          "short_description": "Deze afbeelding laat zien dat de website responsief is en ook efficiënt functioneert als live chat-site."
+        },
+        {
+          "title": "Verbonden melding",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/connected.png",
+          "short_description": "De gebruiker informeren over de status van zijn internetverbinding."
+        },
+        {
+          "title": "Verbinding verbroken",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/disconnected.png",
+          "short_description": ""
+        },
+        {
+          "title": "Controleer of de kamernaam niet al gereserveerd is.",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/room-name-check.png",
+          "short_description": "Dezelfde kamernaam mag niet meer dan één keer gebruikt worden, omdat deze de kamer identificeert."
+        },
+        {
+          "title": "De kamernaam is niet gereserveerd",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/room-name-check-good.png",
+          "short_description": ""
+        },
+        {
+          "title": "De kamernaam is gereserveerd",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/room-name-check-bad.png",
+          "short_description": ""
+        },
+        {
+          "title": "Gebruikersnaamvalidatie verificatie",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/username-check-good.png",
+          "short_description": "Een gebruikersnaam mag niet door iemand anders in dezelfde ruimte worden gebruikt."
+        },
+        {
+          "title": "Gebruikersnaamvalidatie verificatie",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/username-check-bad.png",
+          "short_description": "Een gebruikersnaam mag niet door iemand anders in dezelfde ruimte worden gebruikt."
+        },
+        {
+          "title": "Chat kamer laden",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/chat-loading.png",
+          "short_description": "De kamer aan het maken."
+        },
+        {
+          "title": "Admin view",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/admin-view.png",
+          "short_description": "Alleen de beheerder heeft controle over de uitzending. Hij of zij is degene die de chatroom heeft aangemaakt."
+        },
+        {
+          "title": "User view",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/client-view.png",
+          "short_description": "De gemiddelde gebruiker heeft geen controle over de uitzending, maar iemand kan beheerder worden wanneer de beheerder de chatruimte verlaat."
+        },
+        {
+          "title": "Dark mode voor de web view",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/darkmode-lap.png",
+          "short_description": "De kamer aan het maken."
+        },
+        {
+          "title": "Light mode voor de web view",
+          "type_image": "web",
+          "image_src": "./images/streamyChan/lightmode-lap.png",
+          "short_description": "De kamer aan het maken."
+        },
+        {
+          "title": "Dark mode voor de mobile view",
+          "type_image": "mobile",
+          "image_src": "./images/streamyChan/darkmode-mob.png",
+          "short_description": "De kamer aan het maken."
+        },
+        {
+          "title": "Light mode voor de mobile view",
+          "type_image": "mobile",
+          "image_src": "./images/streamyChan/lightmode-mob.png",
+          "short_description": "De kamer aan het maken."
+        }
+      ]
+    },
+    {
+      "id": "Mijn-kamer-portfolio",
+      "title": "3D Kamer Portfolio",
+      "company_or_client": "Persoonlijk Project",
+      "status": "completed",
+      "short_description": "Een interactief <span class=\"hilight\">3D-portfolio</span> in de vorm van een virtuele kamer, gebruikt voor mijn afstudeerstage-sollicitatie.",
+      "main_image": "./images/kamer-portfolio.gif",
+      "tech_stack": ["HTML5", "CSS3", "JavaScript", "GitHub API", "Git"],
+      "details": {
+        "uitdaging": "Het creëren van een gedenkwaardige, creatieve sollicitatie-ervaring die traditionele portfolio-indelingen doorbreekt.",
+        "rol_en_aanpak": "Ontwerp en realisatie van een interactieve 3D-omgeving met behulp van moderne CSS/JS-technieken. Dynamische integratie met de GitHub API om realtime projectdata en online activiteiten direct in de virtuele elementen van de kamer te laden.",
+        "resultaat": "Een unieke, visuele weergave van mijn achtergrond in Communicatie en Multimedia Design (CMD), die met succes leidde tot het bemachtigen van een hoogwaardige afstudeerstage bij Triple."
+      },
+      "links": {
+        "repo_fe": "https://github.com/SundousKanaan/portfolio2023-2024",
+        "repo_be": null,
+        "repo_scraping": null,
+        "live_demo": "https://sundouskanaan.github.io/portfolio2023-2024/"
+      },
+      "gallery": [
+        {
+          "title": "Loading",
+          "type_image": "mobile",
+          "image_src": "/images/kamerPortfolio/loading-state.gif",
+          "short_description": "Veel van de gegevens worden geïmporteerd via de GitHub API, dus een laadscherm is belangrijk."
+        },
+        {
+          "title": "web view",
+          "type_image": "web",
+          "image_src": "/images/kamerPortfolio/room-view-light-mode.png",
+          "short_description": ""
+        },
+
+        {
+          "title": "Mobile view darkmode",
+          "type_image": "mobile",
+          "image_src": "/images/kamerPortfolio/mobile-view-dark-mode.png",
+          "short_description": ""
+        },
+        {
+          "title": "Mobile view lightmode",
+          "type_image": "mobile",
+          "image_src": "/images/kamerPortfolio/mobile-view-light-mode.png",
+          "short_description": ""
+        },
+        {
+          "title": "Kamer mode veranderen",
+          "type_image": "",
+          "image_src": "/images/kamerPortfolio/room-view-dark-mode.gif",
+          "short_description": ""
+        },
+        {
+          "title": "Mobile 3D interacties view",
+          "type_image": "mobile",
+          "image_src": "/images/kamerPortfolio/mobile-view-3d-list.gif",
+          "short_description": ""
+        },
+        {
+          "title": "Projects review",
+          "type_image": "web",
+          "image_src": "/images/kamerPortfolio/room-view-projects-review.gif",
+          "short_description": ""
+        },
+        {
+          "title": "UX/UI projects review",
+          "type_image": "web",
+          "image_src": "/images/kamerPortfolio/room-view-UX-UI-review.gif",
+          "short_description": ""
+        },
+        {
+          "title": "Hobbys review",
+          "type_image": "web",
+          "image_src": "/images/kamerPortfolio/room-view-hobbys-review.gif",
+          "short_description": ""
+        },
+        {
+          "title": "Contact review",
+          "type_image": "web",
+          "image_src": "/images/kamerPortfolio/room-view-leave-room-review.gif",
+          "short_description": ""
+        },
+        {
+          "title": "Vooruit en achteruit bewegen",
+          "type_image": "web",
+          "image_src": "/images/kamerPortfolio/room-view-fore-back-moving.gif",
+          "short_description": "Je kunt bewegen met de knoppen op het scherm of de pijltjestoetsen op het toetsenbord."
+        },
+        {
+          "title": "Zijwaarts bewegen",
+          "type_image": "web",
+          "image_src": "/images/kamerPortfolio/room-view-left-right-moving.gif",
+          "short_description": "Je kunt bewegen met de knoppen op het scherm of de pijltjestoetsen op het toetsenbord."
+        }
+      ]
+    },
+    {
+      "id": "React-pokeapp",
+      "title": "React PokeApp",
+      "company_or_client": "Code Challenge",
+      "status": "completed",
+      "short_description": "Een responsive frontend webapplicatie gebouwd om geavanceerde concepten binnen <span class=\"hilight\">React en TypeScript</span> te masteren.",
+      "main_image": "./images/react-pokeApp/react-pokeapp.gif",
+      "tech_stack": [
+        "Reactjs",
+        "TypeScript",
+        "SCSS",
+        "REST API",
+        "Git",
+        "Figma"
+      ],
+      "details": {
+        "uitdaging": "Het bouwen van een pixel-perfecte, performante interface die grote hoeveelheden externe API-data efficiënt verwerkt en rendert.",
+        "rol_en_aanpak": "Zelfstandige implementatie van component-state management, sterke typering via TypeScript en gestructureerde styling met SCSS. Integratie met de open-source Pokémon API voor asynchrone data-fetching.",
+        "resultaat": "Een vloeiende, volledig responsive webapplicatie die mijn vaardigheden in moderne React-architectuur en API-consumptie onderstreept."
+      },
+      "links": {
+        "repo_fe": "https://github.com/SundousKanaan/React-PokeApp",
+        "repo_be": null,
+        "repo_scraping": null,
+        "live_demo": "https://react-poke-app-seven.vercel.app/"
+      },
+      "gallery": [
+        {
+          "title": "Pokémon review",
+          "type_image": "web",
+          "image_src": "/images/react-pokeApp/React-PokeApp.gif",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon list view",
+          "type_image": "web",
+          "image_src": "/images/react-pokeApp/React-PokeApp.png",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon data card",
+          "type_image": "web",
+          "image_src": "/images/react-pokeApp/React-PokeApp2.png",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon-competitie ",
+          "type_image": "web",
+          "image_src": "/images/react-pokeApp/React-PokeApp3.png",
+          "short_description": ""
+        },
+        {
+          "title": "Darkmode",
+          "type_image": "web",
+          "image_src": "/images/react-pokeApp/React-PokeApp7.png",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon list ipad view",
+          "type_image": "web",
+          "image_src": "/images/react-pokeApp/React-PokeApp4.png",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon list mobile view",
+          "type_image": "mobile",
+          "image_src": "/images/react-pokeApp/React-PokeApp5.png",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon data card mobile view",
+          "type_image": "mobile",
+          "image_src": "/images/react-pokeApp/React-PokeApp6.png",
+          "short_description": ""
+        }
+      ]
+    },
+    {
+      "id": "angular-pokeapp",
+      "title": "Angular PokeApp",
+      "company_or_client": "Code Challenge",
+      "status": "completed",
+      "short_description": "Een responsive frontend applicatie gebouwd om enterprise patterns binnen <span class=\"hilight\">Angular</span> te verkennen.",
+      "main_image": "./images/angular-pokeApp/angular-pokeapp.gif",
+      "tech_stack": ["Angular", "TypeScript", "CSS3", "REST API", "Git"],
+      "details": {
+        "uitdaging": "Het parallel herontwikkelen van een bestaand concept (PokeApp) om de architectonische verschillen tussen React en Angular diepgaand te analyseren.",
+        "rol_en_aanpak": "Toepassing van Angular's core features zoals Services, Dependency Injection en RxJS Observables voor het ophalen en distribueren van data vanuit de Pokémon API naar de componenten.",
+        "resultaat": "Een solide basis in Angular-frameworkstructuren, wat de opstap vormde naar mijn huidige, geavanceerde enterprise dashboard project."
+      },
+      "links": {
+        "repo_fe": "https://github.com/SundousKanaan/Angular-PokeApp",
+        "repo_be": null,
+        "repo_scraping": null,
+        "live_demo": "https://angular-poke-app.vercel.app"
+      },
+      "gallery": [
+        {
+          "title": "Pokémon review",
+          "type_image": "web",
+          "image_src": "/images/angular-pokeApp/Angular-PokeApp.gif",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon list view",
+          "type_image": "web",
+          "image_src": "/images/angular-pokeApp/Angular-PokeApp.png",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon data card",
+          "type_image": "web",
+          "image_src": "/images/angular-pokeApp/Angular-PokeApp2.png",
+          "short_description": "Omdat dit een persoonlijke versie en een persoonlijke verbetering van de React-versie is, heb ik de datakaart opnieuw ontworpen."
+        },
+        {
+          "title": "Loading Pokémon Battleground (user VS pc)",
+          "type_image": "web",
+          "image_src": "/images/angular-pokeApp/Angular-PokeApp3.png",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon-gevecht (user VS pc)",
+          "type_image": "web",
+          "image_src": "/images/angular-pokeApp/Angular-PokeApp4.png",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon list ipad view",
+          "type_image": "web",
+          "image_src": "/images/angular-pokeApp/Angular-PokeApp5.png",
+          "short_description": ""
+        },
+        {
+          "title": "Loading Pokémon Squad Battleground mobile view",
+          "type_image": "mobile",
+          "image_src": "/images/angular-pokeApp/Angular-PokeApp6.png",
+          "short_description": ""
+        },
+        {
+          "title": "Pokémon-gevecht mobile view",
+          "type_image": "mobile",
+          "image_src": "/images/angular-pokeApp/Angular-PokeApp7.png",
+          "short_description": ""
+        }
+      ]
+    },
+    {
+      "id": "yoasobi-kopie",
+      "title": "Yoasobi Pixel-Perfect Replica",
+      "company_or_client": "Persoonlijk Project (Studiejaar 2)",
+      "status": "completed",
+      "short_description": "Een detailgeoriënteerde oefening in <span class=\"hilight\">responsive</span> webdesign en <span class=\"hilight\">clean-coding</span> standaarden.",
+      "main_image": "./images/yoasobi/yoasobi-kopie.gif",
+      "tech_stack": ["HTML5", "CSS3", "JavaScript", "Git"],
+      "details": {
+        "uitdaging": "Het exact dupliceren van een bestaande, visueel complexe website (Yoasobi) met een sterke nadruk op semantische HTML en vlekkeloze responsiveness.",
+        "rol_en_aanpak": "Handmatig nabouwen van twee volledige webpagina's. Implementatie van CSS Grid/Flexbox media queries voor vloeiende overgangen tussen mobiele, tablet- en laptopschermen zonder gebruik van frameworks.",
+        "resultaat": "Een showcase project dat bewijst dat ik de fundamenten van het web (vanilla UI/UX) op een uitzonderlijk secuur niveau beheers."
+      },
+      "links": {
+        "repo_fe": "https://github.com/SundousKanaan/Blokweb",
+        "repo_be": null,
+        "repo_scraping": null,
+        "live_demo": "https://sundouskanaan.github.io/Blokweb/",
+        "originele_site": "https://www.yoasobi-music.jp/"
+      },
+      "gallery": [
+        {
+          "title": "Web review",
+          "type_image": "web",
+          "image_src": "./images/yoasobi/yoasobi-kopie.gif",
+          "short_description": ""
+        },
+        {
+          "title": "Web review SONGS/NOVELS page",
+          "type_image": "web",
+          "image_src": "./images/yoasobi/page2.gif",
+          "short_description": ""
+        },
+        {
+          "title": "Menu review",
+          "type_image": "web",
+          "image_src": "./images/yoasobi/nav-menu.gif",
+          "short_description": ""
+        },
+
+        {
+          "title": "Mode review",
+          "type_image": "web",
+          "image_src": "./images/yoasobi/lightmode.gif",
+          "short_description": "De originele website staat het niet toe om de lightmode te wijzigen, dus in mijn versie was het veranderen van de modus een toevoegen."
+        },
+        {
+          "title": "Mobile review",
+          "type_image": "mobile",
+          "image_src": "./images/yoasobi/mobile-view.gif",
+          "short_description": ""
+        }
+      ]
+    },
+    {
+      "id": "vue-tailwind-study",
+      "title": "Anime Explorer",
+      "company_or_client": "Persoonlijk Project (Studie)",
+      "status": "paused",
+      "short_description": "Een lopend onderzoeksproject gericht op het eigen maken van <span class=\"hilight\">Vue.js</span> en utility-first CSS via <span class=\"hilight\">Tailwind</span>.",
+      "main_image": "./images/website-placeholder.svg",
+      "tech_stack": ["Vue.js", "Tailwind CSS", "Node.js", "Jikan API", "Git"],
+      "details": {
+        "uitdaging": "Het vlot eigen maken van de Composition API van Vue.js en het versnellen van de UI-ontwikkeling met Tailwind CSS.",
+        "rol_en_aanpak": "Binden van live data uit de Jikan (Anime) API aan reactieve Vue-componenten, ondersteund door een lichtgewicht Node.js backend-structuur. Styling via util-classes voor een direct resultaat.",
+        "resultaat": "Dit project illustreert mijn proactieve houding ten opzichte van professionele zelfstudie (*leergierigheid*) en het snel kunnen schakelen tussen verschillende frontend ecosystemen."
+      },
+      "links": {
+        "repo_fe": null,
+        "repo_be": null,
+        "repo_scraping": null,
+        "live_demo": null
+      },
+      "gallery": []
+    }
+  ]
+}

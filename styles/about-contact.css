@@ -1,0 +1,158 @@
+/* *********************** */
+/* *********************** */
+/* ****** about ********* */
+/* *********************** */
+/* *********************** */
+
+#about > p {
+  margin: 0 auto 0.5em auto;
+}
+
+#about ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+#about ul li {
+  width: 22em;
+  max-height: 5.5em;
+
+  transition: 1s;
+
+  background-color: var(--color-gray);
+  border-radius: 0.5em;
+  box-shadow: 0 0 0.5em var(--color-secondary-light);
+  padding: 1em;
+
+  list-style: none;
+  overflow: hidden;
+
+  position: relative;
+}
+
+#about ul li h4 {
+  font-size: 0.95em;
+  text-align: center;
+  margin-bottom: 1em;
+
+  color: var(--color-primary);
+}
+
+#about ul li button {
+  width: 100%;
+  height: 2.5em;
+  background-image: linear-gradient(transparent, var(--color-secondary-light));
+
+  border-radius: 0 0 0.5em 0.5em;
+}
+
+#about ul li button:hover {
+  transform: none;
+}
+
+#about ul li button p {
+  color: var(--color-secondary-halfLight);
+  font-weight: 600;
+}
+
+#about ul li button:hover p {
+  font-weight: 800;
+}
+
+#about ul li div {
+  position: absolute;
+  left: 0;
+  margin-bottom: 0.5em;
+  transform: translateY(5em);
+  opacity: 0;
+  transition: transform 1s;
+}
+
+#about ul li div p {
+  font-size: 0.9em;
+}
+
+#about ul li.openCard {
+  max-height: 26em;
+}
+
+#about ul li.openCard div {
+  position: relative;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (min-width: 1024px) {
+  #about ul li {
+    width: 25em;
+  }
+}
+
+/* *********************** */
+/* *********************** */
+/* ****** contact ******** */
+/* *********************** */
+/* *********************** */
+
+@media (min-width: 1028px) {
+  #contact {
+    height: 95vh;
+    padding: 3em 15%;
+  }
+}
+
+#contact section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+#contact section > p {
+  width: 80%;
+}
+
+#contact section ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+#contact .contactBlok {
+  height: 10em;
+  aspect-ratio: 1.5/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  background-color: var(--color-gray);
+  border-radius: 0.5em;
+  padding: 1em;
+  box-shadow: 0 0 0.5em var(--color-secondary-light);
+}
+
+#contact .contactBlok svg {
+  width: 3em;
+  height: auto;
+  fill: var(--color-primary);
+}
+
+#contact .contactBlok a {
+  font-weight: bold;
+  color: var(--color-primary);
+  text-decoration-color: var(--color-primary);
+}
+
+#contact .contactBlok p {
+  font-size: 0.8em;
+}
