@@ -468,7 +468,7 @@
         {
           "title": "Pokémon review",
           "type_image": "web",
-          "image_src": "./images/react-pokeApp/React-PokeApp.gif",
+          "image_src": "./images/react-pokeApp/react-pokeapp.gif",
           "short_description": ""
         },
         {
@@ -538,7 +538,7 @@
         {
           "title": "Pokémon review",
           "type_image": "web",
-          "image_src": "./images/angular-pokeApp/Angular-PokeApp.gif",
+          "image_src": "./images/angular-pokeApp/angular-pokeapp.gif",
           "short_description": ""
         },
         {
