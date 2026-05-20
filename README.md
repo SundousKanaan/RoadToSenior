@@ -20,7 +20,7 @@ This portfolio highlights my hands-on experience in building scalable, user-cent
 
 The portfolio itself and the projects showcased within it leverage a modern tech stack focused on clean code and robust architecture:
 
-*   **Frontend:** HTML5, CSS3 / SCSS, JavaScript (ES6+), Angular
+*   **Frontend:** HTML5, CSS3 / SCSS, JavaScript (ES6+), Angular, Reactjs, TypeScript
 *   **Backend & Database:** Node.js, Firebase (Authentication, Firestore)
 *   **Methodologies & Tools:** Scrum, Azure DevOps, Git, Responsive UI/UX Design
 
