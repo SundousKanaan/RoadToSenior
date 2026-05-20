@@ -266,7 +266,7 @@ function openProjectModal(project, displayStatus) {
       galleryHtml += `<li>
         <h4 style="margin:.5em 0;">${item.title}</h4>
         <div class="gallery-item ${item.type_image}">
-          <img src="${item.image_src}" alt="${project.title}">
+          <img src="${item.image_src}" loading="lazy" alt="${project.title}">
         `;
       if (item.short_description) {
         galleryHtml += `<span>${item.short_description}</span>`;
@@ -284,8 +284,8 @@ function openProjectModal(project, displayStatus) {
       AjaxGalleryHtml += `
         <h4 style="margin:.5em 0;">${item.title}</h4>
         <div class="gallery-grid">
-          ${item.old_img ? `<div class="gallery-item"><img src="${item.old_img}" /><span>Oud Design</span></div>` : ""}
-          <div class="gallery-item"><img src="${item.new_img}" /><span>${item.old_img ? "Nieuw Design" : "Definitief Design"}</span></div>
+          ${item.old_img ? `<div class="gallery-item"><img src="${item.old_img}" loading="lazy" alt="${project.title}" /><span>Oud Design</span></div>` : ""}
+          <div class="gallery-item"><img src="${item.new_img}" loading="lazy" alt="${project.title}" /><span>${item.old_img ? "Nieuw Design" : "Definitief Design"}</span></div>
         </div>
       `;
     });
