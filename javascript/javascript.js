@@ -170,7 +170,7 @@ function renderSkillsContent(skillsData) {
     `;
   });
 
-  console.log("---", categoryHtml);
+  // console.log("---", categoryHtml);
 
   // inject everything; fall back to available fields on skillsData
   skillsarticle.innerHTML += `
@@ -231,8 +231,11 @@ function renderProjectsCards(projectsData) {
 
 function openProjectModal(project, displayStatus) {
   const dialog = document.getElementById("project-dialog");
-  const modalContent = document.getElementById("modal-dynamic-content");
-  if (!dialog || !modalContent) return;
+  const modalContent = document.querySelector(".modal-content");
+  const modalDynamicContent = document.getElementById("modal-dynamic-content");
+  console.log("==", modalContent);
+
+  if (!dialog || !modalDynamicContent || !modalContent) return;
 
   // 1. making dynamic project links
   let linksHtml = "";
@@ -297,7 +300,7 @@ function openProjectModal(project, displayStatus) {
   const resultaat = project.details?.resultaat || "";
 
   // 4. inject the dialog html data
-  modalContent.innerHTML = `
+  modalDynamicContent.innerHTML = `
     <section class="modal-header">
       <h2>${project.title}</h2>
       <span class="modal-status badge ${project.status}">${displayStatus}</span>
@@ -328,10 +331,13 @@ function openProjectModal(project, displayStatus) {
   `;
 
   if (galleryHtml) {
-    modalContent.innerHTML += `${galleryHtml}`;
+    modalDynamicContent.innerHTML += `${galleryHtml}`;
   }
 
   dialog.showModal();
+  modalContent.scrollTo({
+    top: 0,
+  });
 }
 
 getWebsiteData();
@@ -388,10 +394,12 @@ const options = {
 // callback functie
 function observerFunction(entries) {
   entries.forEach((entry) => {
-    // check of article zichtbaar is
+    // check if article is visible
     if (entry.isIntersecting) {
-      // activeer juiste link
+      // show the article with animation
+      entry.target.classList.add("visibleArticle");
 
+      // activeer juiste link
       setActiveLink(entry.target.id);
     }
   });

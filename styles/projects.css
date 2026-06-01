@@ -136,8 +136,8 @@
 #projects .modal-content {
   position: relative;
   padding: 2.5rem;
-  overflow-y: auto;
   max-height: 85vh;
+  overflow-y: auto;
 }
 
 #projects .modal-left p {

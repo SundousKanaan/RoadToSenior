@@ -445,6 +445,18 @@ main article {
   color: var(--color-secondary);
   padding: 1.5em 2em;
   background-color: var(--color-gray);
+
+  opacity: 0;
+}
+
+.visibleArticle {
+  animation: showArticle 0.5s 1 0.2s both ease-in-out;
+}
+
+@keyframes showArticle {
+  100% {
+    opacity: 1;
+  }
 }
 
 main article > h3 {
