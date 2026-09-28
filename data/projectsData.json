@@ -3,6 +3,7 @@
     {
       "id": "global-insights-dashboard",
       "title": "Global Insights Dashboard",
+      "date":  "2026",
       "company_or_client": "Persoonlijk Project",
       "status": "InProgress",
       "short_description": "Een geavanceerd data-visualisatie dashboard gebouwd met <span class=\"hilight\"> Angular 18 en TypeScript</span>.",
@@ -62,6 +63,7 @@
     {
       "id": "ajax-fanshop",
       "title": "AJAX Fanshop Checkout flow",
+      "date": "2024",
       "company_or_client": "Triple / AJAX",
       "status": "completed",
       "short_description": "<span class=\"hilight\">Herontwikkeling</span> van het betalingsproces voor de officiële <span class=\"hilight\">AJAX Fanshop</span> van een single-page naar een multi-step checkout.",
@@ -122,6 +124,7 @@
     {
       "id": "LOGO-capisoft",
       "title": "LOGO Webplatform",
+      "date": "2025",
       "company_or_client": "Capisoft (Stage)",
       "status": "completed",
       "short_description": "<span class=\"hilight\">Full-stack webapplicatie</span> met mobiele integratie en geautomatiseerde data scraping.",
@@ -172,6 +175,7 @@
     {
       "id": "algoritmeregister-tiltshift",
       "title": "Algoritmeregister Dataplatform",
+      "date": "2022",
       "company_or_client": "TiltShift",
       "status": "completed",
       "short_description": "Een transparant dataplatform ontworpen om burgers meer inzicht te geven in data en overheidsalgoritmes. <span class=\"hilight\">Genomineerd voor de Golden Dot Awards 2022.</span>",
@@ -214,6 +218,7 @@
     {
       "id": "Streamychan",
       "title": "StreamyChan",
+      "date": "2024",
       "company_or_client": "Persoonlijk Project",
       "status": "completed",
       "short_description": "Een <span class=\"hilight\">real-time webapplicatie</span> en streamingdienst voor gezamenlijke chatsessies en gesynchroniseerde YouTube-videoweergave.",
@@ -346,6 +351,7 @@
     {
       "id": "Mijn-kamer-portfolio",
       "title": "3D Kamer Portfolio",
+      "date":"2024",
       "company_or_client": "Persoonlijk Project",
       "status": "completed",
       "short_description": "Een interactief <span class=\"hilight\">3D-portfolio</span> in de vorm van een virtuele kamer, gebruikt voor mijn afstudeerstage-sollicitatie.",
@@ -441,6 +447,7 @@
     {
       "id": "React-pokeapp",
       "title": "React PokeApp",
+      "date": "2024",
       "company_or_client": "Code Challenge",
       "status": "completed",
       "short_description": "Een responsive frontend webapplicatie gebouwd om geavanceerde concepten binnen <span class=\"hilight\">React en TypeScript</span> te masteren.",
@@ -518,6 +525,7 @@
     {
       "id": "angular-pokeapp",
       "title": "Angular PokeApp",
+      "date": "2025",
       "company_or_client": "Code Challenge",
       "status": "completed",
       "short_description": "Een responsive frontend applicatie gebouwd om enterprise patterns binnen <span class=\"hilight\">Angular</span> te verkennen.",
@@ -588,6 +596,7 @@
     {
       "id": "yoasobi-kopie",
       "title": "Yoasobi Pixel-Perfect Replica",
+      "date": "2022",
       "company_or_client": "Persoonlijk Project (Studiejaar 2)",
       "status": "completed",
       "short_description": "Een detailgeoriënteerde oefening in <span class=\"hilight\">responsive</span> webdesign en <span class=\"hilight\">clean-coding</span> standaarden.",
@@ -642,6 +651,7 @@
     {
       "id": "vue-tailwind-study",
       "title": "Anime Explorer",
+      "date": "2024",
       "company_or_client": "Persoonlijk Project (Studie)",
       "status": "paused",
       "short_description": "Een lopend onderzoeksproject gericht op het eigen maken van <span class=\"hilight\">Vue.js</span> en utility-first CSS via <span class=\"hilight\">Tailwind</span>.",

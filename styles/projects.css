@@ -96,6 +96,22 @@
   background-color: #f5f3f4d5;
 }
 
+#projects .projectsList .project .date {
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  font-size: 0.9em;
+  font-weight: 600;
+
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+
+  backdrop-filter:blur(0.1em);
+
+  color:var(--color-primary);
+  background-color: #f5f3f4d5;
+  }
+
 #projects .projectsList .project button {
   grid-area: button;
   align-self: end;
@@ -162,13 +178,18 @@
   margin-bottom: 1.5rem;
 }
 
-#projects .modal-status {
+#projects .modal-status, #projects .modal-date {
   display: inline-block;
   padding: 0.25rem 0.75rem;
   border-radius: 50px;
   font-size: 0.85rem;
   font-weight: bold;
   margin-top: 0.5rem;
+}
+
+#projects .modal-date{
+  color: var(--color-primary);
+  background-color: #f5f3f4d5;
 }
 
 #projects .modal-grid {

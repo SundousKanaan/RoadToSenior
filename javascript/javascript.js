@@ -215,6 +215,10 @@ function renderProjectsCards(projectsData) {
     const projectStatus = projectData.status;
     badge.innerText = statusArray[projectStatus] || projectStatus;
     badge.classList.add("badge", projectStatus);
+    const date = document.createElement("div");
+    date.className = "date";
+    date.textContent = projectData.date || "";
+    
     const button = document.createElement("button");
     button.textContent = "Meer details";
 
@@ -223,7 +227,7 @@ function renderProjectsCards(projectsData) {
       document.body.classList.add("no-scroll");
     });
 
-    li.append(title, info, imgContainer, badge, button);
+    li.append(title, info, imgContainer, badge, date, button);
     fragment.appendChild(li);
   });
   projectsList.appendChild(fragment);
@@ -304,6 +308,7 @@ function openProjectModal(project, displayStatus) {
     <section class="modal-header">
       <h2>${project.title}</h2>
       <span class="modal-status badge ${project.status}">${displayStatus}</span>
+      <span class="modal-date">${project.date || ""}</span>
     </section>
     <section class="modal-grid">
       <div class="modal-left">
